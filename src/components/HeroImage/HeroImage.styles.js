@@ -11,8 +11,9 @@ export const Wrapper = styled.div`
     background-position: center;
     height: 600px;
     position: relative;
+    z-index: 999;
     animation: animateHeroImage 1s;
-
+    
     @keyframes animateHeroImage{
         from{
             opacity: 0;
